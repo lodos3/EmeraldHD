@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a1f68b0308ea61a459d29eac5bc3bd0e
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _T_UN_Rock2_BSP_Rock03_N01: {fileID: 2800000, guid: 64c02fb1a0d32114d9fabc54c92daf99,
+      type: 3}
+  - _T_FX_DamagePulse: {fileID: 2800000, guid: e32e5a31df1a8fd4b959820f4aedf085, type: 3}
+  - _T_achievement_005: {fileID: 2800000, guid: 08a2557f63ba4b741b215e9061cb929c,
+      type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

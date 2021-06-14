@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 842c348beea4d4540934b17707aafc1a
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _T_EFX_Soft_Light: {fileID: 2800000, guid: 46f248b0fb35a6b4d9431264ab1999f4, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

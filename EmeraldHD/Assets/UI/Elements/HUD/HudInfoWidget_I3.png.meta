@@ -1,0 +1,1028 @@
+fileFormatVersion: 2
+guid: bd58dd1e2d37b324b8e8861f5c430be7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5519564648759915824
+    second: HUD_BG_BL
+  - first:
+      213: -474685201090565654
+    second: HudInfoWidget_I3_1
+  - first:
+      213: 6635671551493691409
+    second: HudInfo_LvlBG
+  - first:
+      213: -3527497859555801888
+    second: ModeAllSml
+  - first:
+      213: -8903800916750468227
+    second: ModeEvilSMl
+  - first:
+      213: -5541109018203895237
+    second: ModePeacefulSml
+  - first:
+      213: -1645287407197631923
+    second: ModeGuildSml
+  - first:
+      213: -154971200007277017
+    second: ModeGrpSml
+  - first:
+      213: 1946498842207649094
+    second: AtkModePeaceful1
+  - first:
+      213: -5613953025508090425
+    second: AtkModeAll2
+  - first:
+      213: -7073052201535797473
+    second: AtkModePeaceful2
+  - first:
+      213: 3996457496095997127
+    second: AtkModePeaceful3
+  - first:
+      213: -1371386445166113507
+    second: HudInfoWidget_I3_12
+  - first:
+      213: 6838864243442321904
+    second: AtkModeGuild1
+  - first:
+      213: 1316084058107745792
+    second: AtkModeGuild3
+  - first:
+      213: 1918728205373963724
+    second: AtkModeGuild2
+  - first:
+      213: 8371531255240842325
+    second: AtkModeAll1
+  - first:
+      213: 3085669501428261188
+    second: AtkModeAll2
+  - first:
+      213: 3085669501428261188
+    second: AtkModeAll3
+  - first:
+      213: 1371687408249958051
+    second: AtkModeEvil1
+  - first:
+      213: -7049612042877770371
+    second: AtkModeEvil2
+  - first:
+      213: -8460076306479638644
+    second: AtkModeEvil3
+  - first:
+      213: 3085669501428261188
+    second: AtkModeAll3
+  - first:
+      213: -7669040891394232173
+    second: AtkModeAll2
+  - first:
+      213: -8957604507631904181
+    second: AtkModeGrp2
+  - first:
+      213: 3109642085348464500
+    second: AtkModeGrp1
+  - first:
+      213: 3085669501428261188
+    second: HudInfoWidget_I3_9
+  - first:
+      213: 1170824291958994939
+    second: AtkModeWar4
+  - first:
+      213: -9051978712765215153
+    second: AtkModeWar3
+  - first:
+      213: -1228710421639453298
+    second: AtkModeWar2
+  - first:
+      213: 4792711226550767922
+    second: AtkModeWar1
+  - first:
+      213: -34868809682548032
+    second: HudInfoWidget_I3_27
+  - first:
+      213: -828090892842993285
+    second: HudInfoWidget_I3_28
+  - first:
+      213: 9005021316361149537
+    second: HudInfoWidget_I3_29
+  - first:
+      213: -5218908013776582733
+    second: HudInfoWidget_I3_30
+  - first:
+      213: -1447212696765229252
+    second: HudInfoWidget_I3_31
+  - first:
+      213: 7368610088957544352
+    second: HudInfoWidget_I3_32
+  - first:
+      213: -459726128430273309
+    second: HudInfoWidget_I3_33
+  - first:
+      213: 1550854964427886695
+    second: PartyHudWidgetBG
+  - first:
+      213: -3751266430986812536
+    second: PartyHudWidgetHP
+  - first:
+      213: -9076977380574484041
+    second: PartyHudWidget1
+  - first:
+      213: -2476591881134571803
+    second: PartyHudInfoBG1
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HUD_BG_BL
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 115
+        width: 138
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035732cddce699c40800000000000000
+      internalID: 5519564648759915824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudInfoWidget_I3_1
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 146
+        width: 106
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9acd813549969f0800000000000000
+      internalID: -474685201090565654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudInfo_LvlBG
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 69
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11852f86e14a61c50800000000000000
+      internalID: 6635671551493691409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ModeAllSml
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 64
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4c93fd26fcb0fc0800000000000000
+      internalID: -3527497859555801888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ModeEvilSMl
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b7a469d385f6480800000000000000
+      internalID: -8903800916750468227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ModePeacefulSml
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 64
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a4e3cb4b60a13b0800000000000000
+      internalID: -5541109018203895237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ModeGuildSml
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 64
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4acf8cf1d3ca29e0800000000000000
+      internalID: -1645287407197631923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ModeGrpSml
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7267621c38e69ddf0800000000000000
+      internalID: -154971200007277017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtkModePeaceful1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 149
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64dfe7d426a530b10800000000000000
+      internalID: 1946498842207649094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtkModePeaceful2
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 149
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f170aa15f7877dd90800000000000000
+      internalID: -7073052201535797473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtkModePeaceful3
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 148
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ccbfb62be4467730800000000000000
+      internalID: 3996457496095997127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudInfoWidget_I3_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 117
+        width: 219
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d86164b4bd7fce0800000000000000
+      internalID: -1371386445166113507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtkModeGuild1
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 148
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f90089abc688ee50800000000000000
+      internalID: 6838864243442321904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtkModeGuild3
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 148
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006111a5a7ba34210800000000000000
+      internalID: 1316084058107745792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtkModeGuild2
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 148
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd76dd0321b0aa10800000000000000
+      internalID: 1918728205373963724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtkModeAll1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 148
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55cd5b68257ad2470800000000000000
+      internalID: 8371531255240842325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudInfoWidget_I3_9
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 145
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44163ee101082da20800000000000000
+      internalID: 3085669501428261188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtkModeEvil1
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 149
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae6d972e66390310800000000000000
+      internalID: 1371687408249958051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtkModeEvil2
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 149
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7564fb823fba2e90800000000000000
+      internalID: -7049612042877770371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtkModeEvil3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 148
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8715933c65c79a80800000000000000
+      internalID: -8460076306479638644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtkModeAll2
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 148
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390708c01f7129590800000000000000
+      internalID: -7669040891394232173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtkModeGrp2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 147
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a9924e82230b380800000000000000
+      internalID: -8957604507631904181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtkModeGrp1
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 147
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477dcc3400ba72b20800000000000000
+      internalID: 3109642085348464500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtkModeWar4
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 116
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf73d908d7a9f3010800000000000000
+      internalID: 1170824291958994939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtkModeWar3
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 116
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e4b37f159e06280800000000000000
+      internalID: -9051978712765215153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtkModeWar2
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 116
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e852c5aa16eb2fee0800000000000000
+      internalID: -1228710421639453298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtkModeWar1
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 116
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231d599b771238240800000000000000
+      internalID: 4792711226550767922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudInfoWidget_I3_27
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 147
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca8129900f148ff0800000000000000
+      internalID: -34868809682548032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudInfoWidget_I3_28
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 147
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b797b5a68b70284f0800000000000000
+      internalID: -828090892842993285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudInfoWidget_I3_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 145
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16cd6843d2348fc70800000000000000
+      internalID: 9005021316361149537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudInfoWidget_I3_30
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 55
+        width: 112
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7486bffc6b297b0800000000000000
+      internalID: -5218908013776582733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudInfoWidget_I3_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 55
+        width: 110
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c379fde48b77aebe0800000000000000
+      internalID: -1447212696765229252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudInfoWidget_I3_32
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 122
+        width: 191
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a78ca8d5df824660800000000000000
+      internalID: 7368610088957544352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudInfoWidget_I3_33
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 95
+        width: 180
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eca2fc9589be99f0800000000000000
+      internalID: -459726128430273309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PartyHudWidgetBG
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 115
+        width: 173
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76010e49f5eb58510800000000000000
+      internalID: 1550854964427886695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PartyHudWidgetHP
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 78
+        width: 143
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8830f2b5e03d0fbc0800000000000000
+      internalID: -3751266430986812536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PartyHudWidget1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 221
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b92a9c0a29180280800000000000000
+      internalID: -9076977380574484041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PartyHudInfoBG1
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 116
+        width: 154
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee7b5f3ec061add0800000000000000
+      internalID: -2476591881134571803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1dd636f479557234cabc88be95c05794
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

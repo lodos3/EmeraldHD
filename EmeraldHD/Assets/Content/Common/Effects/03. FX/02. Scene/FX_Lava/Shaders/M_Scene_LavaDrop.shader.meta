@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a2699262ceacccc41bfc7323b3d31653
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Lava_Normal: {fileID: 2800000, guid: d0bdfbb2eaf069846bb44fb3595ccd18, type: 3}
+  - _T_Scence_LavaTex01: {fileID: 2800000, guid: dd628dc7599a78d43b1bfd9061794815,
+      type: 3}
+  - _Fire_041_tex: {fileID: 2800000, guid: e2efcbe8e4dfc1a459018f01fa27cf2b, type: 3}
+  - _LavaNoise05: {fileID: 2800000, guid: d5627de12f87be848a66657556ba16d2, type: 3}
+  - _LavaTex01: {fileID: 2800000, guid: dd628dc7599a78d43b1bfd9061794815, type: 3}
+  - _Drops01: {fileID: 2800000, guid: 9d78ce3d0af5271419b77847d7bf9535, type: 3}
+  - _Drips02: {fileID: 2800000, guid: 9d78ce3d0af5271419b77847d7bf9535, type: 3}
+  - _DropMask: {fileID: 2800000, guid: 2c7984df8b1236543b7bf6a6d5f61f70, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2171 @@
+fileFormatVersion: 2
+guid: ca6391ad3f545ae479217e6baf1af479
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5308012998839548065
+    second: DamageLevel_I1_0
+  - first:
+      213: -4683769526622742164
+    second: DamageLevel_I1_1
+  - first:
+      213: -5163149547479913133
+    second: DamageLevel_I1_2
+  - first:
+      213: 1400959469777886448
+    second: DamageLevel_I1_3
+  - first:
+      213: -3484760352813430223
+    second: DamageLevel_I1_4
+  - first:
+      213: 6621631804755256785
+    second: DamageLevel_I1_5
+  - first:
+      213: 2708741880801800059
+    second: DamageLevel_I1_6
+  - first:
+      213: 1574383549918369758
+    second: DamageLevel_I1_7
+  - first:
+      213: 8029342566722368347
+    second: DamageLevel_I1_8
+  - first:
+      213: 3547869335694685114
+    second: DamageLevel_I1_9
+  - first:
+      213: 7513346113259958821
+    second: DamageLevel_I1_10
+  - first:
+      213: -7730398667597767985
+    second: DamageLevel_I1_11
+  - first:
+      213: 2142754671975031809
+    second: DamageLevel_I1_12
+  - first:
+      213: -5027390372137841347
+    second: DamageLevel_I1_13
+  - first:
+      213: 3289185228841886068
+    second: DamageLevel_I1_14
+  - first:
+      213: -9034929205028451796
+    second: DamageLevel_I1_15
+  - first:
+      213: -7634814303639733500
+    second: DamageLevel_I1_16
+  - first:
+      213: -5104633252448883623
+    second: DamageLevel_I1_17
+  - first:
+      213: -74324113935861027
+    second: DamageLevel_I1_18
+  - first:
+      213: -3345365179686837054
+    second: DamageLevel_I1_19
+  - first:
+      213: -7480279056206866443
+    second: DamageLevel_I1_20
+  - first:
+      213: -7604591557958556149
+    second: DamageLevel_I1_21
+  - first:
+      213: 498950307833740658
+    second: DamageLevel_I1_22
+  - first:
+      213: 6086432663848500084
+    second: DamageLevel_I1_23
+  - first:
+      213: -6213679641735672393
+    second: DamageLevel_I1_24
+  - first:
+      213: 7174178247638382138
+    second: DamageLevel_I1_25
+  - first:
+      213: -4505510603206703727
+    second: DamageLevel_I1_26
+  - first:
+      213: 5343865957899943982
+    second: DamageLevel_I1_27
+  - first:
+      213: -3633155545923157526
+    second: DamageLevel_I1_28
+  - first:
+      213: 8788756992967149967
+    second: DamageLevel_I1_29
+  - first:
+      213: -3234245807073917484
+    second: DamageLevel_I1_30
+  - first:
+      213: -977697607501167261
+    second: DamageLevel_I1_31
+  - first:
+      213: 4467763600071548800
+    second: DamageLevel_I1_32
+  - first:
+      213: 7358545022453323911
+    second: DamageLevel_I1_33
+  - first:
+      213: 3416188121613076811
+    second: DamageLevel_I1_34
+  - first:
+      213: -201719707757677158
+    second: DamageLevel_I1_35
+  - first:
+      213: 1521601156103957430
+    second: DamageLevel_I1_36
+  - first:
+      213: 1519752766556913139
+    second: DamageLevel_I1_37
+  - first:
+      213: 2285694950279492609
+    second: DamageLevel_I1_38
+  - first:
+      213: 2517901651466738987
+    second: DamageLevel_I1_39
+  - first:
+      213: 291764720344915822
+    second: DamageLevel_I1_40
+  - first:
+      213: 6915454230316188834
+    second: DamageLevel_I1_41
+  - first:
+      213: -3173253467335393805
+    second: DamageLevel_I1_42
+  - first:
+      213: -25331771188715700
+    second: DamageLevel_I1_43
+  - first:
+      213: -198043945398897960
+    second: DamageLevel_I1_44
+  - first:
+      213: 1283038929335669546
+    second: DamageLevel_I1_45
+  - first:
+      213: -3986980514979477181
+    second: DamageLevel_I1_46
+  - first:
+      213: -3350243580119420504
+    second: DamageLevel_I1_47
+  - first:
+      213: -2372588235051035833
+    second: DamageLevel_I1_48
+  - first:
+      213: -983519742841151706
+    second: DamageLevel_I1_49
+  - first:
+      213: 3898215401814744645
+    second: DamageLevel_I1_50
+  - first:
+      213: -8600484918437206225
+    second: DamageLevel_I1_51
+  - first:
+      213: 4848083476164737570
+    second: DamageLevel_I1_52
+  - first:
+      213: -1610650815125683118
+    second: DamageLevel_I1_53
+  - first:
+      213: -408437093780927564
+    second: DamageLevel_I1_54
+  - first:
+      213: -7673419484315903513
+    second: DamageLevel_I1_55
+  - first:
+      213: 2451667978110053837
+    second: DamageLevel_I1_56
+  - first:
+      213: -7885137593702040605
+    second: DamageLevel_I1_57
+  - first:
+      213: 7081684809646613457
+    second: DamageLevel_I1_58
+  - first:
+      213: -781206425874895675
+    second: DamageLevel_I1_59
+  - first:
+      213: 9032420905560599072
+    second: DamageLevel_I1_60
+  - first:
+      213: 6118756580482005586
+    second: DamageLevel_I1_61
+  - first:
+      213: 5631022083665182512
+    second: DamageLevel_I1_62
+  - first:
+      213: -5136952476418291525
+    second: DamageLevel_I1_63
+  - first:
+      213: -3568854629843677937
+    second: DamageLevel_I1_64
+  - first:
+      213: -1482391772401930004
+    second: DamageLevel_I1_65
+  - first:
+      213: -5069982211155356761
+    second: DamageLevel_I1_66
+  - first:
+      213: 1476145383879217820
+    second: DamageLevel_I1_67
+  - first:
+      213: -5738025153138944724
+    second: DamageLevel_I1_68
+  - first:
+      213: -2612567958816875391
+    second: DamageLevel_I1_69
+  - first:
+      213: -1360358799158227688
+    second: DamageLevel_I1_70
+  - first:
+      213: 906384919372049647
+    second: DamageLevel_I1_71
+  - first:
+      213: -3565271762742279687
+    second: DamageLevel_I1_72
+  - first:
+      213: 261697179571562327
+    second: DamageLevel_I1_73
+  - first:
+      213: -4918403447704517109
+    second: DamageLevel_I1_74
+  - first:
+      213: 5963373627599771518
+    second: DamageLevel_I1_75
+  - first:
+      213: 2729471765610259929
+    second: DamageLevel_I1_76
+  - first:
+      213: 2900207596176745137
+    second: DamageLevel_I1_77
+  - first:
+      213: 1694507478603304461
+    second: DamageLevel_I1_78
+  - first:
+      213: 148663466874055669
+    second: DamageLevel_I1_79
+  - first:
+      213: -5037799914944903842
+    second: DamageLevel_I1_80
+  - first:
+      213: 5826243311663057806
+    second: DamageLevel_I1_81
+  - first:
+      213: 8544264500270321402
+    second: DamageLevel_I1_82
+  - first:
+      213: 4428382582846104276
+    second: DamageLevel_I1_83
+  - first:
+      213: -1606551416245436655
+    second: DamageLevel_I1_84
+  - first:
+      213: -4572771176179626704
+    second: DamageLevel_I1_85
+  - first:
+      213: 6574064480316113628
+    second: DamageLevel_I1_86
+  - first:
+      213: 1305939947363741857
+    second: DamageLevel_I1_87
+  - first:
+      213: -6602118264163737060
+    second: DamageLevel_I1_88
+  - first:
+      213: -1080959866457406638
+    second: DamageLevel_I1_89
+  - first:
+      213: 1904057340205905848
+    second: DamageLevel_I1_90
+  - first:
+      213: 8518023695405477031
+    second: DamageLevel_I1_91
+  - first:
+      213: 7143133958030755848
+    second: DamageLevel_I1_92
+  - first:
+      213: -3119975801763900652
+    second: DamageLevel_I1_93
+  - first:
+      213: -7408224087477950068
+    second: DamageLevel_I1_94
+  - first:
+      213: -8616256292169540419
+    second: DamageLevel_I1_95
+  - first:
+      213: 8426800571853473121
+    second: DamageLevel_I1_96
+  - first:
+      213: 4372915629432070353
+    second: DamageLevel_I1_97
+  - first:
+      213: -2143328724161208421
+    second: DamageLevel_I1_98
+  - first:
+      213: 6117200962267999582
+    second: DamageLevel_I1_99
+  - first:
+      213: -9034261696791741623
+    second: DamageLevel_I1_100
+  - first:
+      213: 8224637219738647257
+    second: DamageLevel_I1_101
+  - first:
+      213: -2274047231529273797
+    second: DamageLevel_I1_102
+  - first:
+      213: 8026374748439387409
+    second: DamageLevel_I1_103
+  - first:
+      213: 2268462017091758466
+    second: DamageLevel_I1_104
+  - first:
+      213: -8358604045071904842
+    second: DamageLevel_I1_105
+  - first:
+      213: -1621706654401644559
+    second: DamageLevel_I1_106
+  - first:
+      213: -1806672348587414281
+    second: DamageLevel_I1_107
+  - first:
+      213: -6676136707047025306
+    second: DamageLevel_I1_108
+  - first:
+      213: -1060992106024168708
+    second: DamageLevel_I1_109
+  - first:
+      213: 5361110642436014978
+    second: DamageLevel_I1_110
+  - first:
+      213: 3974847845988219021
+    second: DamageLevel_I1_111
+  - first:
+      213: 2912672068129565567
+    second: DamageLevel_I1_112
+  - first:
+      213: -7239482134525598799
+    second: DamageLevel_I1_113
+  - first:
+      213: -1862744833820825319
+    second: DamageLevel_I1_114
+  - first:
+      213: 281869862675826080
+    second: DamageLevel_I1_115
+  - first:
+      213: 6425433353328553929
+    second: DamageLevel_I1_116
+  - first:
+      213: -2715920652903807755
+    second: DamageLevel_I1_117
+  - first:
+      213: 3178081038866620718
+    second: DamageLevel_I1_118
+  - first:
+      213: 6012180862604742162
+    second: DamageLevel_I1_119
+  - first:
+      213: 488370938596231673
+    second: DamageLevel_I1_120
+  - first:
+      213: -2238774835926382246
+    second: DamageLevel_I1_121
+  - first:
+      213: 8178495509754934440
+    second: DamageLevel_I1_122
+  - first:
+      213: -473575390659529779
+    second: DamageLevel_I1_123
+  - first:
+      213: 3848759983128917610
+    second: DamageLevel_I1_124
+  - first:
+      213: -3808562848715162334
+    second: DamageLevel_I1_125
+  - first:
+      213: -8504996001060514039
+    second: DamageLevel_I1_126
+  - first:
+      213: 3369767021037175659
+    second: DamageLevel_I1_127
+  - first:
+      213: 9124966706352271830
+    second: DamageLevel_I1_128
+  - first:
+      213: 6557396514292296207
+    second: DamageLevel_I1_129
+  - first:
+      213: -3662586610014444592
+    second: DamageLevel_I1_130
+  - first:
+      213: 9032084542883853113
+    second: DamageLevel_I1_131
+  - first:
+      213: 4283108707129367008
+    second: DamageLevel_I1_132
+  - first:
+      213: 8452523510814528973
+    second: DamageLevel_I1_133
+  - first:
+      213: 5417980334042514311
+    second: DamageLevel_I1_134
+  - first:
+      213: 5317530754123331643
+    second: DamageLevel_I1_135
+  - first:
+      213: -8057051697150514042
+    second: DamageLevel_I1_136
+  - first:
+      213: -7098971117525958587
+    second: DamageLevel_I1_137
+  - first:
+      213: -7973729010293657652
+    second: DamageLevel_I1_138
+  - first:
+      213: -6134647557164035485
+    second: DamageLevel_I1_139
+  - first:
+      213: -207908081938416003
+    second: DamageLevel_I1_140
+  - first:
+      213: -3520664200860923322
+    second: DamageLevel_I1_141
+  - first:
+      213: -6352618350218711598
+    second: DamageLevel_I1_142
+  - first:
+      213: 2969278070158517489
+    second: DamageLevel_I1_143
+  - first:
+      213: -2128265073960571490
+    second: DamageLevel_I1_144
+  - first:
+      213: -4787745426317718571
+    second: DamageLevel_I1_145
+  - first:
+      213: -2812808533973915807
+    second: DamageLevel_I1_146
+  - first:
+      213: 3218752120093321687
+    second: DamageLevel_I1_147
+  - first:
+      213: 2842018572737546490
+    second: DamageLevel_I1_148
+  - first:
+      213: 1459894824901299094
+    second: DamageLevel_I1_149
+  - first:
+      213: -1998096150550067012
+    second: DamageLevel_I1_150
+  - first:
+      213: -7251175542363117634
+    second: DamageLevel_I1_151
+  - first:
+      213: 7513299780474688
+    second: DamageLevel_I1_152
+  - first:
+      213: -2787304072605591772
+    second: DamageLevel_I1_153
+  - first:
+      213: 1221495225270036831
+    second: DamageLevel_I1_154
+  - first:
+      213: 5755230581257109270
+    second: DamageLevel_I1_155
+  - first:
+      213: -3714460361101913147
+    second: DamageLevel_I1_156
+  - first:
+      213: 4339589920179771870
+    second: DamageLevel_I1_157
+  - first:
+      213: 2571837881293066882
+    second: DamageLevel_I1_158
+  - first:
+      213: -948344127888933137
+    second: DamageLevel_I1_159
+  - first:
+      213: -8901530879189676827
+    second: DamageLevel_I1_160
+  - first:
+      213: 7565208283049069076
+    second: DamageLevel_I1_161
+  - first:
+      213: -7181186979807100349
+    second: DamageLevel_I1_162
+  - first:
+      213: 4859240299068132238
+    second: DamageLevel_I1_163
+  - first:
+      213: 4076768543709399047
+    second: DamageLevel_I1_164
+  - first:
+      213: 5350708144889860119
+    second: DamageLevel_I1_165
+  - first:
+      213: 2935203432414371811
+    second: DamageLevel_I1_166
+  - first:
+      213: 7636689742052933309
+    second: DamageLevel_I1_167
+  - first:
+      213: 2980898530502211595
+    second: DamageLevel_I1_168
+  - first:
+      213: 3729389090389435318
+    second: DamageLevel_I1_169
+  - first:
+      213: 6392633677322815047
+    second: DamageLevel_I1_170
+  - first:
+      213: 8347706354460474306
+    second: DamageLevel_I1_171
+  - first:
+      213: 7472233435093269459
+    second: DamageLevel_I1_172
+  - first:
+      213: 4629002689334341664
+    second: DamageLevel_I1_173
+  - first:
+      213: 925325197830086514
+    second: DamageLevel_I1_174
+  - first:
+      213: 3400478641939420358
+    second: DamageLevel_I1_175
+  - first:
+      213: -1908262522498687407
+    second: DamageLevel_I1_176
+  - first:
+      213: 7500207186162970164
+    second: DamageLevel_I1_177
+  - first:
+      213: 2262570861329347334
+    second: DamageLevel_I1_178
+  - first:
+      213: 5618510950309752167
+    second: DamageLevel_I1_179
+  - first:
+      213: -1242398405446339723
+    second: DamageLevel_I1_180
+  - first:
+      213: -4895889246478826327
+    second: DamageLevel_I1_181
+  - first:
+      213: 4954557512728944190
+    second: DamageLevel_I1_182
+  - first:
+      213: -5852304370991584531
+    second: DamageLevel_I1_183
+  - first:
+      213: -4924173367011997508
+    second: DamageLevel_I1_184
+  - first:
+      213: 7553400778435502558
+    second: DamageLevel_I1_185
+  - first:
+      213: 3159713642689593450
+    second: DamageLevel_I1_186
+  - first:
+      213: 2206576388846033409
+    second: DamageLevel_I1_187
+  - first:
+      213: 6924709430210524766
+    second: DamageLevel_I1_188
+  - first:
+      213: -3905216171364257361
+    second: DamageLevel_I1_189
+  - first:
+      213: -6975759251256105943
+    second: DamageLevel_I1_190
+  - first:
+      213: -8762123971448327923
+    second: DamageLevel_I1_191
+  - first:
+      213: -6254097900982988323
+    second: DamageLevel_I1_192
+  - first:
+      213: -3397672143478330456
+    second: DamageLevel_I1_193
+  - first:
+      213: -1237217688632661258
+    second: DamageLevel_I1_194
+  - first:
+      213: 2576966198920411420
+    second: DamageLevel_I1_195
+  - first:
+      213: 797228144433053282
+    second: DamageLevel_I1_196
+  - first:
+      213: -572468534943262297
+    second: DamageLevel_I1_197
+  - first:
+      213: -436647241819038246
+    second: DamageLevel_I1_198
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DamageLevel_I1_14
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 158
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471259de98885ad20800000000000000
+      internalID: 3289185228841886068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_15
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 158
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a0a73d1cb7d9280800000000000000
+      internalID: -9034929205028451796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_16
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 158
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b7b7187d0bb0690800000000000000
+      internalID: -7634814303639733500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_17
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 158
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c23273a13b829b0800000000000000
+      internalID: -5104633252448883623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_18
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 158
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda7b96bc92f7fef0800000000000000
+      internalID: -74324113935861027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_19
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 158
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c42ec4f710e291d0800000000000000
+      internalID: -3345365179686837054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_20
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 158
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7def1a4d5b03890800000000000000
+      internalID: -7480279056206866443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_22
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 163
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d700359a0ace600800000000000000
+      internalID: 498950307833740658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_23
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 163
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b360ea24a577450800000000000000
+      internalID: 6086432663848500084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 113
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bdc44e894394c9a0800000000000000
+      internalID: -6213679641735672393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_25
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 113
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36f1d51b1dcf8360800000000000000
+      internalID: 7174178247638382138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_26
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 113
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195cb144af53971c0800000000000000
+      internalID: -4505510603206703727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_27
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 113
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20cde396c9392a40800000000000000
+      internalID: 5343865957899943982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_28
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 113
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1828fb740749dc0800000000000000
+      internalID: -3633155545923157526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_29
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 113
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8989079befe7f970800000000000000
+      internalID: 8788756992967149967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_30
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 113
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d500110396ad13d0800000000000000
+      internalID: -3234245807073917484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_31
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 113
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365c42fb4358e62f0800000000000000
+      internalID: -977697607501167261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_32
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 113
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f5fa2b25fa00e30800000000000000
+      internalID: 4467763600071548800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_33
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 113
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7889c0fe5bdce1660800000000000000
+      internalID: 7358545022453323911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_34
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 113
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4908a23ffcb86f20800000000000000
+      internalID: 3416188121613076811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_35
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 113
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9578ea9ef8533df0800000000000000
+      internalID: -201719707757677158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_36
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 113
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb666f8030dd1510800000000000000
+      internalID: 1521601156103957430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_37
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 113
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fdba05d61f371510800000000000000
+      internalID: 1519752766556913139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_38
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 113
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1043058727b68bf10800000000000000
+      internalID: 2285694950279492609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_39
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 113
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d5b0b263261f220800000000000000
+      internalID: 2517901651466738987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_40
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 113
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f5622a77e8c0400800000000000000
+      internalID: 291764720344915822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_41
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 113
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4087a9bf0a8ff50800000000000000
+      internalID: 6915454230316188834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_42
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 75
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd7239b8c656f3d0800000000000000
+      internalID: -3173253467335393805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_43
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 113
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4fd3c863e006aff0800000000000000
+      internalID: -25331771188715700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_44
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 113
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2f498b418604df0800000000000000
+      internalID: -198043945398897960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_45
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 113
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23dc00cb154ec110800000000000000
+      internalID: 1283038929335669546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_46
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 113
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3498e3678566ba8c0800000000000000
+      internalID: -3986980514979477181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_47
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 113
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1f2f7d63b8181d0800000000000000
+      internalID: -3350243580119420504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_48
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 113
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743138b129fd21fd0800000000000000
+      internalID: -2372588235051035833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_49
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 113
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f9e5a3106d952f0800000000000000
+      internalID: -983519742841151706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_50
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 113
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54edf1b114e391630800000000000000
+      internalID: 3898215401814744645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_51
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 113
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f272274b880f4a880800000000000000
+      internalID: -8600484918437206225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_52
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 113
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a7d3e3c3ad74340800000000000000
+      internalID: 4848083476164737570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_53
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 113
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2548d330e91d5a9e0800000000000000
+      internalID: -1610650815125683118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_54
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 113
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb481090a0f45af0800000000000000
+      internalID: -408437093780927564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_55
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 113
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e91ac072a9828590800000000000000
+      internalID: -7673419484315903513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_56
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 113
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd237e5903160220800000000000000
+      internalID: 2451667978110053837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 75
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ebbf42c22d529290800000000000000
+      internalID: -7885137593702040605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_58
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 75
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3244260d2374260800000000000000
+      internalID: 7081684809646613457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_59
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 75
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc697905e89825f0800000000000000
+      internalID: -781206425874895675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_60
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 75
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a60c135fa995d70800000000000000
+      internalID: 9032420905560599072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_61
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 75
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ab6bef0b03ae450800000000000000
+      internalID: 6118756580482005586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_62
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 75
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f3e3b20c8652e40800000000000000
+      internalID: 5631022083665182512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_63
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 75
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8460f70f0e5b8b0800000000000000
+      internalID: -5136952476418291525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_64
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 75
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0dc82d6f91e87ec0800000000000000
+      internalID: -3568854629843677937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_65
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 75
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0750c798c7d6be0800000000000000
+      internalID: -1482391772401930004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_66
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 75
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a319867a0ec3a9b0800000000000000
+      internalID: -5069982211155356761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_67
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 75
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9214fad7625c7410800000000000000
+      internalID: 1476145383879217820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_68
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 75
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2595ea46807e50b0800000000000000
+      internalID: -5738025153138944724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_69
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 75
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c172f884b4ebbd0800000000000000
+      internalID: -2612567958816875391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_70
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 75
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81dc81131e80f1de0800000000000000
+      internalID: -1360358799158227688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_71
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 75
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec21fc2840249c00800000000000000
+      internalID: 906384919372049647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_72
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 75
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1040ea83c958ec0800000000000000
+      internalID: -3565271762742279687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_73
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 75
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757a513c23cb1a300800000000000000
+      internalID: 261697179571562327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_74
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 75
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0604858f125ebbb0800000000000000
+      internalID: -4918403447704517109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_75
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 75
+        width: 29
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77540018b822c250800000000000000
+      internalID: 5963373627599771518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_0
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 75
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8bcfa03b9d9a940800000000000000
+      internalID: 5308012998839548065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 75
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c691ad36e68effeb0800000000000000
+      internalID: -4683769526622742164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_2
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 75
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35dad3497dec858b0800000000000000
+      internalID: -5163149547479913133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_3
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 113
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc94d41735317310800000000000000
+      internalID: 1400959469777886448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_4
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 163
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ac0331ce4a3afc0800000000000000
+      internalID: -3484760352813430223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_5
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 158
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5add32b03c4eb50800000000000000
+      internalID: 6621631804755256785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_6
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 113
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f2a699362679520800000000000000
+      internalID: 2708741880801800059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_7
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 158
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed75a194f7559d510800000000000000
+      internalID: 1574383549918369758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DamageLevel_I1_8
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 158
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53f86de584fd6f60800000000000000
+      internalID: 8029342566722368347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 405dce22fdbd3a7488df3d1619a27a43
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

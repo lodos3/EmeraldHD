@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Scene_LavaPanel
+  m_Shader: {fileID: 4800000, guid: 9c0cef1bcc47b9245969b73be970e895, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LavaAlphaTex01:
+        m_Texture: {fileID: 2800000, guid: b08ca348e5c11ff438bdf6196cf357b8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LavaAlphaTex02:
+        m_Texture: {fileID: 2800000, guid: e96ea6b4adc9cf24ba630ab02c16277f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LavaBlend:
+        m_Texture: {fileID: 2800000, guid: d5627de12f87be848a66657556ba16d2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LavaBrightTex:
+        m_Texture: {fileID: 2800000, guid: dd628dc7599a78d43b1bfd9061794815, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LavaDarkTex01:
+        m_Texture: {fileID: 2800000, guid: 1f83357c4c6bc0a4ba1dcf21f845e34b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LavaDarkTex01_Normal:
+        m_Texture: {fileID: 2800000, guid: 2e28dd59b6a5f26419eabb5c52072638, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LavaDarkTex02:
+        m_Texture: {fileID: 2800000, guid: b08ca348e5c11ff438bdf6196cf357b8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LavaMaskTex01:
+        m_Texture: {fileID: 2800000, guid: 500ccf63be4adc24eb2151aa965a8a8e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LavaMaskTex02:
+        m_Texture: {fileID: 2800000, guid: e96ea6b4adc9cf24ba630ab02c16277f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LavaTex01:
+        m_Texture: {fileID: 2800000, guid: dd628dc7599a78d43b1bfd9061794815, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LavaTex01_Normal:
+        m_Texture: {fileID: 2800000, guid: 0a6448d45aed58d49affbb72e3f04e6d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LavaTex02:
+        m_Texture: {fileID: 2800000, guid: e2efcbe8e4dfc1a459018f01fa27cf2b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T_Scence_LavaNormal01:
+        m_Texture: {fileID: 2800000, guid: 0a6448d45aed58d49affbb72e3f04e6d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: e2efcbe8e4dfc1a459018f01fa27cf2b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _LavaAlphaTex01_Multiply: 0
+    - _LavaAlphaTex01_Power: 1.5
+    - _LavaAlphaTex01_U: 5
+    - _LavaAlphaTex01_USpeed: 0
+    - _LavaAlphaTex01_U_1: 5
+    - _LavaAlphaTex01_V: 5
+    - _LavaAlphaTex01_VSpeed: 0.2
+    - _LavaAlphaTex01_V_1: 5
+    - _LavaAlphaTex02_Multiply: 2
+    - _LavaAlphaTex02_Power: 0.75
+    - _LavaAlphaTex02_U: 18
+    - _LavaAlphaTex02_USpeed: 0
+    - _LavaAlphaTex02_V: 18
+    - _LavaAlphaTex02_VSpeed: 0.15
+    - _LavaBlend_U: 0.4
+    - _LavaBlend_USpeed: -0.1
+    - _LavaBlend_V: 1.6
+    - _LavaBlend_VSpeed: 0.07
+    - _LavaBrightAdd: 0.02
+    - _LavaBrightMultiply: 80
+    - _LavaBrightTex_USpeed: 0.01
+    - _LavaBrightTex_VSpeed: 0.01
+    - _LavaBright_U: 20
+    - _LavaBright_V: 8
+    - _LavaDarkTex01_U: 16
+    - _LavaDarkTex01_USpeed: 0
+    - _LavaDarkTex01_V: 16
+    - _LavaDarkTex01_VSpeed: 0.05
+    - _LavaDarkText01_Normal_Scale: 1
+    - _LavaMaskTex02_Multiply: 1
+    - _LavaMaskTex02_Power: 2
+    - _LavaMaskTex02_U: 6
+    - _LavaMaskTex02_V: 6
+    - _LavaNormal01_Normal_Scale: 1
+    - _LavaTex01Multiply: 1
+    - _LavaTex01Power: 1.25
+    - _LavaTex01_U: 20
+    - _LavaTex01_USpeed: 0
+    - _LavaTex01_V: 20
+    - _LavaTex01_VSpeed: 0.02
+    - _LavaTex02Multiply: 1
+    - _LavaTex02Power: 1
+    - _LavaTex02_U: 20
+    - _LavaTex02_USpeed: 0
+    - _LavaTex02_V: 20
+    - _LavaTex02_VSpeed: 0.2
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Smoothness: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    - __dirty: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _LavaBrightColor: {r: 1, g: 0.57647055, b: 0.20392156, a: 1}
+    - _LavaDarkColor: {r: 1, g: 0.2627451, b: 0, a: 1}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}

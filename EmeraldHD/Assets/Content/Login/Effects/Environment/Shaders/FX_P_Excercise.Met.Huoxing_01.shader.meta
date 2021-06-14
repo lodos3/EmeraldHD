@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e163bf5e1655bad41a1c5a8d044c38e4
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _TextureSample0: {fileID: 2800000, guid: 3e96708b363110649b662debb45b234c, type: 3}
+  - _T_SpawnDistortion: {fileID: 2800000, guid: e0171d3ce8fd05a4fa708a760711935f,
+      type: 3}
+  - _TextureSample1: {fileID: 2800000, guid: e0171d3ce8fd05a4fa708a760711935f, type: 3}
+  - _T_EFX_SparkCluster01: {fileID: 2800000, guid: 3e96708b363110649b662debb45b234c,
+      type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

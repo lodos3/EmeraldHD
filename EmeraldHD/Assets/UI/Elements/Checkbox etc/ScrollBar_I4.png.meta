@@ -1,0 +1,902 @@
+fileFormatVersion: 2
+guid: 1ac0675b48685f14da94074cc31b19af
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5079527814148891234
+    second: ScrollBar_I4_0
+  - first:
+      213: 2876563952070110700
+    second: ScrollBar_I4_1
+  - first:
+      213: -3166386133366702248
+    second: ScrollBar_I4_2
+  - first:
+      213: -3165234313090183951
+    second: ScrollBar_I4_3
+  - first:
+      213: 3673506279386097203
+    second: ScrollBar_I4_4
+  - first:
+      213: -4178520672055287547
+    second: ScrollBar_I4_5
+  - first:
+      213: -4544978350300120948
+    second: ScrollBar_I4_6
+  - first:
+      213: 7004950255206098685
+    second: ScrollBar_I4_7
+  - first:
+      213: -3814248792425554237
+    second: ScrollBar_I4_8
+  - first:
+      213: 8380107107440788378
+    second: ScrollBar_I4_9
+  - first:
+      213: 4297600410064806770
+    second: ScrollBar_I4_10
+  - first:
+      213: -2473785315711311314
+    second: ScrollBar_Down_Btn1
+  - first:
+      213: 6585372122366738140
+    second: ScrollBar_I4_12
+  - first:
+      213: -1888226276078866300
+    second: ScrollBar_I4_13
+  - first:
+      213: -7875253156748152600
+    second: ScrollBar_Up_Btn2
+  - first:
+      213: 2730466052481906949
+    second: ScrollBar_Down_Btn2
+  - first:
+      213: -2396822882331126972
+    second: ScrollBar_Up_Btn1
+  - first:
+      213: 8736757445958895675
+    second: ScrollBar_Down_Btn3
+  - first:
+      213: 7834916728551321844
+    second: ScrollBar_Up_Btn3
+  - first:
+      213: 179087423812970572
+    second: ScrollBar_Up_Btn4
+  - first:
+      213: -9072628374265654525
+    second: ScrollBar_Down_Btn4
+  - first:
+      213: -8365159820814921339
+    second: ScrollBar_I4_21
+  - first:
+      213: 1936836047964328163
+    second: ScrollBar_I4_22
+  - first:
+      213: 1935244017044070310
+    second: ScrollBar_I4_23
+  - first:
+      213: -6777076357687229476
+    second: ScrollBar_I4_24
+  - first:
+      213: -2315058958434412549
+    second: ScrollBar_I4_25
+  - first:
+      213: -8598456420730312616
+    second: ScrollBar_I4_26
+  - first:
+      213: 6906271173919078557
+    second: ScrollBar_I4_27
+  - first:
+      213: 4687290793990261562
+    second: ScrollBar_I4_28
+  - first:
+      213: -3521566253916152974
+    second: ScrollBar_I4_29
+  - first:
+      213: 5039082776457702713
+    second: ScrollBar_I4_30
+  - first:
+      213: -5737614220690265724
+    second: ScrollBar_I4_31
+  - first:
+      213: 6355542042760745176
+    second: ScrollBar_I4_32
+  - first:
+      213: 570842677692202481
+    second: ScrollBar_I4_33
+  - first:
+      213: -3768886895083282329
+    second: ScrollBar_I4_34
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ScrollBar_I4_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 131
+        width: 9
+        height: 379
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d50f29d54e189b0800000000000000
+      internalID: -5079527814148891234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_I4_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 383
+        width: 19
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced25d87cab9be720800000000000000
+      internalID: 2876563952070110700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_I4_2
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 484
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f74f2869cbe04d0800000000000000
+      internalID: -3166386133366702248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_I4_3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 484
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fcc1619924d214d0800000000000000
+      internalID: -3165234313090183951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_I4_4
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 494
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336a9fe7f7aeaf230800000000000000
+      internalID: 3673506279386097203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_I4_5
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 495
+        width: 5
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501a4876699e206c0800000000000000
+      internalID: -4178520672055287547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_I4_6
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 495
+        width: 5
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88358e454efce0c0800000000000000
+      internalID: -4544978350300120948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_I4_7
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 499
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df667dea425963160800000000000000
+      internalID: 7004950255206098685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_I4_8
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 499
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce138a9ee0111bc0800000000000000
+      internalID: -3814248792425554237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_I4_9
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 499
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a930cb6b30f1c4470800000000000000
+      internalID: 8380107107440788378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_I4_10
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 499
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2736c74adc424ab30800000000000000
+      internalID: 4297600410064806770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_Down_Btn1
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 503
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22237eac595badd0800000000000000
+      internalID: -2473785315711311314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_I4_12
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 503
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdefd63fd01f36b50800000000000000
+      internalID: 6585372122366738140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_I4_13
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 503
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480b2c6c43cabc5e0800000000000000
+      internalID: -1888226276078866300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_Up_Btn2
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 503
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0b0c39afa75b290800000000000000
+      internalID: -7875253156748152600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_Down_Btn2
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 503
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5097279786094e520800000000000000
+      internalID: 2730466052481906949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_Up_Btn1
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 503
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44310259946ccbed0800000000000000
+      internalID: -2396822882331126972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_Down_Btn3
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 503
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3801279b923f3970800000000000000
+      internalID: 8736757445958895675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_Up_Btn3
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 503
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f03112e0473bbc60800000000000000
+      internalID: 7834916728551321844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_Up_Btn4
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 503
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48ac18201f3c7200800000000000000
+      internalID: 179087423812970572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_Down_Btn4
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 503
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30314ccff8c871280800000000000000
+      internalID: -9072628374265654525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_I4_21
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 503
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581d4f6a67bf8eb80800000000000000
+      internalID: -8365159820814921339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_I4_22
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 500
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0d513bf1601ea10800000000000000
+      internalID: 1936836047964328163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_I4_23
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 484
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af9c9d1e2e5bda10800000000000000
+      internalID: 1935244017044070310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_I4_24
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 481
+        width: 6
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3ca5c85fcf2f1a0800000000000000
+      internalID: -6777076357687229476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_I4_25
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 481
+        width: 6
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf75e6c94224fdfd0800000000000000
+      internalID: -2315058958434412549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_I4_26
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 481
+        width: 6
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85861b121752ca880800000000000000
+      internalID: -8598456420730312616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_I4_27
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 481
+        width: 6
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9877fbaa0108df50800000000000000
+      internalID: 6906271173919078557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_I4_28
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 481
+        width: 6
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b8fbe842a9c0140800000000000000
+      internalID: 4687290793990261562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_I4_29
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 481
+        width: 6
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b135e6622e02fc0800000000000000
+      internalID: -3521566253916152974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_I4_30
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 469
+        width: 16
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 7, z: 4, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93dec84461b6ee540800000000000000
+      internalID: 5039082776457702713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_I4_31
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 469
+        width: 16
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 7, z: 4, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489e685f346ef50b0800000000000000
+      internalID: -5737614220690265724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBar_I4_32
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 469
+        width: 16
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 7, z: 4, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d090d590db633850800000000000000
+      internalID: 6355542042760745176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: de3c6a0ef8367954b9e0ac7c0626e833
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

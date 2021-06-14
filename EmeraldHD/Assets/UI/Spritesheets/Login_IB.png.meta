@@ -1,0 +1,536 @@
+fileFormatVersion: 2
+guid: b46f810275a6f454388332ea6f93b3b5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3332474157567939043
+    second: RightTabA
+  - first:
+      213: 2951549897762390867
+    second: DownTabC
+  - first:
+      213: 7896737902050666647
+    second: Login_IB_2
+  - first:
+      213: 2969714759650857894
+    second: Login_IB_3
+  - first:
+      213: -7223896583211388011
+    second: DownTabB
+  - first:
+      213: -8947102651066397162
+    second: CharCreation_Selected
+  - first:
+      213: 6155657678944721796
+    second: CharCreation_Hover
+  - first:
+      213: -1002857142157888671
+    second: CharCreation_ChatInput
+  - first:
+      213: -7563576565559535054
+    second: CharCreation_Border
+  - first:
+      213: 9214141097063612346
+    second: CharCreation_ButtonA
+  - first:
+      213: 5799662732147279436
+    second: CharCreation_ButtonA
+  - first:
+      213: -1371789301628621049
+    second: CharCreation_ButtonC
+  - first:
+      213: -2570810794466735203
+    second: Reset_ButtonA
+  - first:
+      213: 376717968894691832
+    second: Reset_ButtonB
+  - first:
+      213: -662456233566900323
+    second: Reset_ButtonC
+  - first:
+      213: -4289670231843180879
+    second: DownTabA
+  - first:
+      213: 4948146008142298518
+    second: RightTabC
+  - first:
+      213: -7078484414602434412
+    second: RightTabB
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RightTabA
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 628
+        width: 203
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 1, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1910117935f3e20800000000000000
+      internalID: 3332474157567939043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownTabC
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 628
+        width: 203
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353c7f87ef206f820800000000000000
+      internalID: 2951549897762390867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Login_IB_2
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 629
+        width: 127
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798e7108849d69d60800000000000000
+      internalID: 7896737902050666647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Login_IB_3
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 629
+        width: 127
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a35935f6db863920800000000000000
+      internalID: 2969714759650857894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownTabB
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 662
+        width: 203
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593f687d4509fbb90800000000000000
+      internalID: -7223896583211388011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharCreation_Selected
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 695
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 11, y: 9, z: 11, w: 12}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e4b3aea8185d380800000000000000
+      internalID: -8947102651066397162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharCreation_Hover
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 695
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 10, y: 9, z: 9, w: 12}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48bd7608b0a4d6550800000000000000
+      internalID: 6155657678944721796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharCreation_ChatInput
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 789
+        width: 229
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16337391eb22512f0800000000000000
+      internalID: -1002857142157888671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharCreation_Border
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 733
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 10, y: 10, z: 9, w: 12}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ada5aef27c80790800000000000000
+      internalID: -7563576565559535054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharCreation_ButtonB
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 739
+        width: 143
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abffdc852843fdf70800000000000000
+      internalID: 9214141097063612346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharCreation_ButtonA
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 738
+        width: 143
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46c5b6e68a8c7050800000000000000
+      internalID: 5799662732147279436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharCreation_ButtonC
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 738
+        width: 143
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70faeb1f5ec66fce0800000000000000
+      internalID: -1371789301628621049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reset_ButtonA
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 597
+        width: 102
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b02130435a25cd0800000000000000
+      internalID: -2570810794466735203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reset_ButtonB
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 597
+        width: 102
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9897c2ffe5a3500800000000000000
+      internalID: 376717968894691832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reset_ButtonC
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 597
+        width: 102
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f600fb09b7ec6f0800000000000000
+      internalID: -662456233566900323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownTabA
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 662
+        width: 203
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be6b6bd6a70874c0800000000000000
+      internalID: -4289670231843180879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightTabC
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 662
+        width: 203
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69db618f3985ba440800000000000000
+      internalID: 4948146008142298518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightTabB
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 702
+        width: 203
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498ab77adeb24cd90800000000000000
+      internalID: -7078484414602434412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 21775e2ceb5424149826f2da28cf5475
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

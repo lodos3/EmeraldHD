@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c53aa367d7491b84ebcea87f19bba05c
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _T_FX_LuoS_cirray02b: {fileID: 2800000, guid: b835a90a84309e647a4156c4cfb111e0,
+      type: 3}
+  - _T_FX_TracerModulate: {fileID: 2800000, guid: c8b1095917de60243876d76aaf21943d,
+      type: 3}
+  - _TextureSample0: {fileID: 2800000, guid: c8b1095917de60243876d76aaf21943d, type: 3}
+  - _MaskTex01: {fileID: 2800000, guid: 1c9f7ab8463e91249a14d12e47d5e9fe, type: 3}
+  - _fx_NoiseOctave2: {fileID: 2800000, guid: bf39788e4ed6b084486c6b81738e67dd, type: 3}
+  - _T_EFX_Soft_Light2: {fileID: 2800000, guid: 394b3e15bb50c484389c0b25bc4d6e29,
+      type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

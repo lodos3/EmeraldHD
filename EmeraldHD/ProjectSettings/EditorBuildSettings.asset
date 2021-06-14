@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Login.unity
+    guid: 95d71d88bf2d8314a8d01fb40d5e4f61
+  - enabled: 1
+    path: Assets/Scenes/GameScene.unity
+    guid: 2594823f08c246743950dae427d103a0
+  - enabled: 1
+    path: Assets/Scenes/Shop.unity
+    guid: 8d4f577bc9c8b87459717ed0e1c0d0ad
+  - enabled: 1
+    path: Assets/_Unreal_Assets/10. Maps/MirPb03/MirPb03.unity
+    guid: 5ac923e3722c84d48ad07ac7c75547a8
+  m_configObjects: {}

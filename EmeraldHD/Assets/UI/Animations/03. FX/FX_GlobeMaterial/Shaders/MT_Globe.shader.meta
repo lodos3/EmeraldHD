@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 94baf7031e1e69446852a8cd48fefd7c
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _TexWaveUp: {fileID: 2800000, guid: 1e90d58ac14b7c548853eb344cefb900, type: 3}
+  - _Normal: {fileID: 2800000, guid: 118f1ce94accb6a488abdabd8d6809a1, type: 3}
+  - _TexWaveRightUp1: {fileID: 2800000, guid: 1e90d58ac14b7c548853eb344cefb900, type: 3}
+  - _TexWaveRightUp2: {fileID: 2800000, guid: 1e90d58ac14b7c548853eb344cefb900, type: 3}
+  - _BaseTex1: {fileID: 2800000, guid: badc409edb6608e459bc81f83caf7b0e, type: 3}
+  - _BaseTex2: {fileID: 2800000, guid: badc409edb6608e459bc81f83caf7b0e, type: 3}
+  - _BaseTex3: {fileID: 2800000, guid: badc409edb6608e459bc81f83caf7b0e, type: 3}
+  - _SplitLineColor: {fileID: 2800000, guid: 8048173ee19fe694688ca3b83493df68, type: 3}
+  - _SplitLineWave: {fileID: 2800000, guid: e03755e10e66f8c4096865c22a3b4992, type: 3}
+  - _SplitLineWave2: {fileID: 2800000, guid: e03755e10e66f8c4096865c22a3b4992, type: 3}
+  - _HPPercentMask: {fileID: 2800000, guid: 177aa5074130b5448b3a715be48283dd, type: 3}
+  - _GlobeMask: {fileID: 2800000, guid: de70a0f3e31b6b04d989fcfa5ef5e2f0, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
