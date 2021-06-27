@@ -37,18 +37,17 @@ public class LoginManager : MonoBehaviour
     public AudioSource audioSource;
 
     private bool loginshown = false;
-    
+
     void Awake()
-    { 
+    {
         switch (GameManager.gameStage)
         {
             case GameStage.None:
-              //  GameManagement.SetActive(true); 
+                GameManagement.SetActive(true);
                 LoadingScreen.SetActive(true);
                 break;
         }
     }
-    
 
     // Start is called before the first frame update
     void Start()
