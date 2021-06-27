@@ -69,7 +69,7 @@ public class CharSelManager : MonoBehaviour
             PlayerModel.GetComponentInChildren<DragRotate>().enabled = true;
         }
     }
-   
+
     private MirClass selectedClass;
     private MirGender selectedGender;
     private GameObject selectedModel;
@@ -102,7 +102,7 @@ public class CharSelManager : MonoBehaviour
         LogOutButton.gameObject.SetActive(true);
         GameManager.gameStage = GameStage.Select;
         Network.Enqueue(new C.RequestCharacters { });
-        FindObjectOfType<LoadScreenManager>().Hide(); 
+        FindObjectOfType<LoadScreenManager>().Hide();
     }
 
     public void ClearCreateBox()
