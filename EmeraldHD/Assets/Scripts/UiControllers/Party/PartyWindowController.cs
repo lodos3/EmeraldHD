@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using Aura2API;
+
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -74,7 +74,7 @@ namespace UiControllers.Party
         {
             for (int i = 0; i < memberSlotList.Count; i++)
             {
-                memberSlotList[i].Destroy();
+                //memberSlotList[i].Destroy(); Stupple to fix
             }
             memberSlotList.Clear();
         }
@@ -91,7 +91,7 @@ namespace UiControllers.Party
         }
         
         public void RemoveMemberSlot(int index) {
-            memberSlotList[index].Destroy();
+            // memberSlotList[index].Destroy(); Stupple to fix
             memberSlotList.RemoveAt(index);
             if(memberSlotList.Count == 1)
                 ClearMembers();
