@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -74,7 +73,7 @@ namespace UiControllers.Party
         {
             for (int i = 0; i < memberSlotList.Count; i++)
             {
-                //memberSlotList[i].Destroy(); Stupple to fix
+                Destroy(memberSlotList[i]);
             }
             memberSlotList.Clear();
         }
@@ -91,7 +90,7 @@ namespace UiControllers.Party
         }
         
         public void RemoveMemberSlot(int index) {
-            // memberSlotList[index].Destroy(); Stupple to fix
+            Destroy(memberSlotList[index]);
             memberSlotList.RemoveAt(index);
             if(memberSlotList.Count == 1)
                 ClearMembers();
