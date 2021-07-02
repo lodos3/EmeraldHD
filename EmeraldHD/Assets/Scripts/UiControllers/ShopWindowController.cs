@@ -51,7 +51,7 @@ namespace UiControllers
         {
             for (int i = 0; i < shopItems.Count; i++)
             {
-                //shopItems[i].Destroy(); STupple
+                Destroy(shopItems[i]); 
             }
             shopItems.Clear();
         }
