@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using Aura2API;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -52,7 +51,7 @@ namespace UiControllers
         {
             for (int i = 0; i < shopItems.Count; i++)
             {
-                shopItems[i].Destroy();
+                //shopItems[i].Destroy(); STupple
             }
             shopItems.Clear();
         }
