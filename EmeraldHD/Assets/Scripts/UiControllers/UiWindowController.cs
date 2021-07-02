@@ -27,7 +27,6 @@ namespace UiControllers
         [SerializeField] private WindowController partyWindow;
         [SerializeField] private WindowController shopWindow;
         [SerializeField] private TMP_InputField chatBar;
-        public ItemTooltip ItemTooltip { get; }
         
         [SerializeField] private MirQuickCell[] quickSlots;
         

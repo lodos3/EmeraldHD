@@ -17,7 +17,7 @@ public class MirItemCell : MonoBehaviour, IQuickSlotItem, IPointerDownHandler, I
     {
         get { return GameManager.User; }
     }
-    
+
     public Image ItemImage;
     public Sprite IconImage;
     public Image HighlightImage;
@@ -189,17 +189,12 @@ public class MirItemCell : MonoBehaviour, IQuickSlotItem, IPointerDownHandler, I
             QuickCell.IconImage.sprite = ItemImage.sprite;
             QuickCell.IconImage.color = ItemImage.color;
         }
+
     }
 
     public void OnPointerDown(PointerEventData eventData)
     {
         if (Locked) return;
-
-        if (GameScene.shopController.IsShopWindowOpen())
-        {
-            GameScene.SetCurrentHoveredCell(this);
-            return;
-        }
 
         if (GameScene.PickedUpGold || GridType == MirGridType.Inspect || GridType == MirGridType.QuestInventory) return;
 
@@ -268,7 +263,6 @@ public class MirItemCell : MonoBehaviour, IQuickSlotItem, IPointerDownHandler, I
 
     public void OnPointerUp(PointerEventData eventData)
     {
-        GameScene.SetCurrentHoveredCell(null);
         if (GameScene.SelectedCell == null) return;
         if (!eventData.hovered.Contains(GameScene.SelectedCell.gameObject)) return;
 

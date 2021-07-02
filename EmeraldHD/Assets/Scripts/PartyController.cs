@@ -66,7 +66,10 @@ public class PartyController : MonoBehaviour {
         messageBox.OK += CmdLeaveParty;
     }
 
-    public bool IsPartyLeader() => partyList.Count == 0 || UserName == partyList[0];
+    public bool IsPartyLeader()
+    {
+        return partyList.Count == 0 || UserName == partyList[0];
+    }
 
     private void CmdLeaveParty() // This can't be the way to do this?
     {

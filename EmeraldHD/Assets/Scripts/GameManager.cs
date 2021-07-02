@@ -471,7 +471,7 @@ public class GameManager : MonoBehaviour
                
             }
             else
-                ob.gameObject.SetActive(false);
+            ob.gameObject.SetActive(false);
             CurrentScene.Cells[ob.CurrentLocation.x, ob.CurrentLocation.y].RemoveObject(ob);
         }
     }
@@ -818,7 +818,7 @@ public class GameManager : MonoBehaviour
         User.Player.NameColour = ConvertSystemColor(p.NameColour);
     }
     public void ObjectColourChanged(S.ObjectColourChanged p)
-    {
+    {  
         if (ObjectList.TryGetValue(p.ObjectID, out MapObject ob))
         {
             ob.NameColour = ConvertSystemColor(p.NameColour);
@@ -831,7 +831,7 @@ public class GameManager : MonoBehaviour
         return NameColorOut;
     }
     
-    public void SetShopGoods(List<UserItem> itemList) {
+    public void SetShopGoods(List<UserItem> itemList) { // HashMap more efficient way than 2 loops?
         for (int i = 0; i < itemList.Count; i++)
             itemList[i].Info = GetItemInfo(itemList[i].ItemIndex);
         GameScene.shopController.SetNpcGoods(itemList);
@@ -839,21 +839,4 @@ public class GameManager : MonoBehaviour
     }
 
     private static ItemInfo GetItemInfo(int index) => ItemInfoList.First(item => item.Index == index);
-    
-    public void SellItem(S.SellItem itemSold)
-    {
-        if(itemSold.Success)
-            GameScene.RemoveItemFromInventory(itemSold.UniqueID, itemSold.Count);
-    }
-
-    public void ItemRepaired(S.ItemRepaired itemRepaired)
-    {
-        var item = GameScene.GetCell(GameScene.Inventory.Cells, itemRepaired.UniqueID).Item;
-        item.CurrentDura = itemRepaired.CurrentDura;
-        item.MaxDura = itemRepaired.MaxDura;
-        if (GameScene.ItemToolTip.IsSameItemId(itemRepaired.UniqueID))
-        {
-            GameScene.ItemToolTip.Item = item;
-        }
-    }
 }

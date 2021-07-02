@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5505736277296584383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7102881555297328243}
+  - component: {fileID: 6855134124599327263}
+  m_Layer: 0
+  m_Name: Terrain Sounds
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7102881555297328243
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5505736277296584383}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 995.8, y: 63.7, z: -175.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6855134124599327263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5505736277296584383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79d706c5a06eb4d4bb84fb12d8f84051, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextureSounds:
+  - {fileID: 11400000, guid: 761518ff95d049e4a8f82783e14afaa6, type: 2}
+  - {fileID: 11400000, guid: 6c90f39a47452414ca54ac96b7a057a3, type: 2}
+  - {fileID: 11400000, guid: 93d858ed462bc574e90ffb0fce5b6689, type: 2}
+  - {fileID: 11400000, guid: 761518ff95d049e4a8f82783e14afaa6, type: 2}
+  - {fileID: 11400000, guid: 5a3c1e0742d2b144b9d129f96e1c955f, type: 2}
+  - {fileID: 11400000, guid: 6811db0646bda0f49993b67effef0e7f, type: 2}
+  - {fileID: 11400000, guid: cebb906139a829d4f85fe1a0b177431f, type: 2}
+  - {fileID: 11400000, guid: 4dd5e5e0d7f26fb45a380dcb5d4e51ab, type: 2}
+  - {fileID: 11400000, guid: e8f855d410a39a74ebe62378d0729cec, type: 2}
+  - {fileID: 11400000, guid: 92d91c940659ccd4d804f142040fa5f9, type: 2}
