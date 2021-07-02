@@ -58903,9 +58903,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shopWindow: {fileID: 8707083939092304933}
+  shopItemContainer: {fileID: 2892738955085457651, guid: 2199bef4cdcde42be96ef51df4e25b6f, type: 3}
+  shopItem: {fileID: 4196811481453079362, guid: 75617099947ad4d13a73684003e265d6, type: 3}
   npcDialogue: {fileID: 1198000931}
+  shopPageText: {fileID: 0}
+  inventoryWindow: {fileID: 2121219932}
   shopWindowController: {fileID: 1499627292838141765}
-  gameManager: {fileID: 551343909}
 --- !u!1 &1198196316
 GameObject:
   m_ObjectHideFlags: 0
@@ -79809,12 +79812,12 @@ MonoBehaviour:
       enableFptlForForwardOpaque: 0
       enableBigTilePrepass: 0
       isFptlEnabled: 0
-  clearColorMode: 2
+  clearColorMode: 1
   backgroundColorHDR: {r: 0, g: 0, b: 0, a: 0}
   clearDepth: 1
   volumeLayerMask:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 0
   volumeAnchorOverride: {fileID: 0}
   antialiasing: 0
   SMAAQuality: 2
@@ -79895,16 +79898,16 @@ Camera:
   m_Depth: 1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 1026
+    m_Bits: 2
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 8400000, guid: e6408f90fed7bca4f88978a114621943, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: ac05e00d7300d9443af83e231fb8135a, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 0
   m_AllowMSAA: 0
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
+  m_OcclusionCulling: 0
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
 --- !u!4 &1665447313
@@ -81595,7 +81598,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1713815188
 RectTransform:
   m_ObjectHideFlags: 0
@@ -81635,7 +81638,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 8400000, guid: e6408f90fed7bca4f88978a114621943, type: 2}
+  m_Texture: {fileID: 8400000, guid: ac05e00d7300d9443af83e231fb8135a, type: 2}
   m_UVRect:
     serializedVersion: 2
     x: 0
