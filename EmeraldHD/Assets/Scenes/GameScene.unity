@@ -21747,16 +21747,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 400287730}
-  m_LocalRotation: {x: 0.0010936394, y: 0.7015306, z: 0.0006010023, w: 0.7126383}
-  m_LocalPosition: {x: 0, y: 0, z: 4.57}
-  m_LocalScale: {x: 14.599999, y: 111.3, z: 136.01}
+  m_LocalRotation: {x: 0.0011025826, y: 0.71220285, z: 0.0005844332, w: 0.7019726}
+  m_LocalPosition: {x: 0, y: 0, z: 3}
+  m_LocalScale: {x: 14.599999, y: 114.999985, z: 113.47854}
   m_Children: []
   m_Father: {fileID: 7382214}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0.041, y: 89.1, z: 0.137}
+  m_LocalEulerAnglesHint: {x: 0.041, y: 90.829, z: 0.137}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.11, y: 2.18}
+  m_AnchoredPosition: {x: -0.9, y: 4.3}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!135 &400287732
@@ -24949,7 +24949,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 465018910}
   m_LocalRotation: {x: 0.0011025826, y: 0.71220285, z: 0.0005844332, w: 0.7019726}
-  m_LocalPosition: {x: 0, y: 0, z: 4.35}
+  m_LocalPosition: {x: 0, y: 0, z: 3}
   m_LocalScale: {x: 14.599999, y: 114.999985, z: 116.21295}
   m_Children: []
   m_Father: {fileID: 7382214}
@@ -24957,7 +24957,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0.041, y: 90.829, z: 0.137}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.69, y: 4.3000016}
+  m_AnchoredPosition: {x: 1.9, y: 4.3000016}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!135 &465018912
@@ -56568,7 +56568,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1149730735}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -3.51}
+  m_LocalPosition: {x: 0, y: 0, z: 0.8999709}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7382214}
@@ -58905,7 +58905,7 @@ MonoBehaviour:
   shopWindow: {fileID: 8707083939092304933}
   npcDialogue: {fileID: 1198000931}
   shopWindowController: {fileID: 1499627292838141765}
-  gameManager: {fileID: 0}
+  gameManager: {fileID: 551343909}
 --- !u!1 &1198196316
 GameObject:
   m_ObjectHideFlags: 0
@@ -76986,7 +76986,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1597034518}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -3.34}
+  m_LocalPosition: {x: 0, y: 0, z: -0.14}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7382214}
@@ -76994,7 +76994,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.18, y: 5.93}
+  m_AnchoredPosition: {x: -2.5, y: 2.2000258}
   m_SizeDelta: {x: 176, y: 119}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1597034520
@@ -79809,12 +79809,12 @@ MonoBehaviour:
       enableFptlForForwardOpaque: 0
       enableBigTilePrepass: 0
       isFptlEnabled: 0
-  clearColorMode: 1
+  clearColorMode: 2
   backgroundColorHDR: {r: 0, g: 0, b: 0, a: 0}
   clearDepth: 1
   volumeLayerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1
   volumeAnchorOverride: {fileID: 0}
   antialiasing: 0
   SMAAQuality: 2
@@ -79895,16 +79895,16 @@ Camera:
   m_Depth: 1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 2
+    m_Bits: 1026
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 8400000, guid: ac05e00d7300d9443af83e231fb8135a, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: e6408f90fed7bca4f88978a114621943, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 0
   m_AllowMSAA: 0
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
-  m_OcclusionCulling: 0
+  m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
 --- !u!4 &1665447313
@@ -81595,7 +81595,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1713815188
 RectTransform:
   m_ObjectHideFlags: 0
@@ -81635,7 +81635,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 8400000, guid: ac05e00d7300d9443af83e231fb8135a, type: 2}
+  m_Texture: {fileID: 8400000, guid: e6408f90fed7bca4f88978a114621943, type: 2}
   m_UVRect:
     serializedVersion: 2
     x: 0
