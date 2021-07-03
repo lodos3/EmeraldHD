@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using C = ClientPackets;
 using Image = UnityEngine.UI.Image;
@@ -21,9 +22,10 @@ namespace UiControllers
 
         private List<UserItem> goods = new List<UserItem>();
         private List<GameObject> shopItems = new List<GameObject>();
-        
+
         private int currentPage = 0;
-        
+        public bool IsRepairOptionActive { get; internal set; }
+
         public void HandlePageTurn(int pageTurn)
         {
             if (shopItems.Count < 10) return;
@@ -51,8 +53,9 @@ namespace UiControllers
         {
             for (int i = 0; i < shopItems.Count; i++)
             {
-                Destroy(shopItems[i]); 
+                Destroy(shopItems[i]);
             }
+
             shopItems.Clear();
         }
 
@@ -60,12 +63,13 @@ namespace UiControllers
         {
             Debug.Log(goods.Count);
             for (int i = 0; i < goods.Count; i++)
-            { 
+            {
                 GameObject newItemObject = Instantiate(shopItem, shopPage.transform);
                 newItemObject.transform.GetChild(0).GetComponent<Image>().sprite =
                     Resources.Load<Sprite>($"Items/{goods[i].Info.Image}");
                 newItemObject.transform.GetChild(1).gameObject.GetComponent<TextMeshProUGUI>().SetText(goods[i].Name);
-                newItemObject.transform.GetChild(2).gameObject.GetComponent<TextMeshProUGUI>().SetText(goods[i].Price().ToString());
+                newItemObject.transform.GetChild(2).gameObject.GetComponent<TextMeshProUGUI>()
+                    .SetText(goods[i].Price().ToString());
                 shopItems.Add(newItemObject);
                 newItemObject.AddComponent<ShopItemListener>().Construct(ShopController, goods[i], newItemObject);
             }
@@ -75,13 +79,13 @@ namespace UiControllers
         {
             gameObject.SetActive(!gameObject.activeSelf);
             npcDialogue.SetActive(false);
-            if(gameObject.activeSelf)
+            if (gameObject.activeSelf)
                 OpenInventoryWithShop();
             else
                 ResetInventoryToDefault();
             return gameObject.activeSelf;
         }
-        
+
         private void SetPageGoods()
         {
             SetPageEmpty();
@@ -89,6 +93,7 @@ namespace UiControllers
             {
                 shopItems[i].SetActive(true);
             }
+
             SetShopPageText();
         }
 
@@ -108,30 +113,46 @@ namespace UiControllers
             inventoryWindow.SetActive(true);
         }
 
-        public void ResetInventoryToDefault()
+        private void ResetInventoryToDefault()
         {
+            IsRepairOptionActive = false;
+            Cursors.UseDefault();
             inventoryWindow.transform.localPosition = inventorySavedPosition;
             inventoryWindow.GetComponent<DragWindow>().enabled = true;
             inventoryWindow.SetActive(false);
-        }
-
-        private void SetPageNumberText()
-        {
-            shopPageText.SetText($"{currentPage + 1}/{(shopItems.Count / 10 < 1 ? 1 : shopItems.Count/10)}");
-        }
-
-        public void SetInventoryWindow()
-        {
-            throw new System.NotImplementedException();
+            ShopController.gameManager.ItemToolTip.Hide();
         }
     }
 
-    internal class ShopItemListener : MonoBehaviour
+    internal class ShopItemListener : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
     {
+        private UserItem item;
+        private ShopController shopController;
+
         public void Construct(ShopController shopController, UserItem item, GameObject shopItem)
         {
-            shopItem.GetComponent<MirButton>().ClickEvent.AddListener(() => shopController.BuyItem(item.UniqueID, 1));
+            // shopItem.GetComponent<Button>().onClick.AddListener(() => shopController.BuyItem(item.UniqueID, 1));
+
+            this.item = item;
+            this.shopController = shopController;
+        }
+
+
+        public void OnPointerExit(PointerEventData eventData)
+        {
+            shopController.gameManager.ItemToolTip.Hide();
+        }
+
+        public void OnPointerEnter(PointerEventData eventData)
+        {
+            shopController.gameManager.ItemToolTip.Item = item;
+            shopController.gameManager.ItemToolTip.Show();
+        }
+
+        public void OnPointerClick(PointerEventData eventData)
+        {
+            if (eventData.button == PointerEventData.InputButton.Right)
+                shopController.BuyItem(item.UniqueID, 1);
         }
     }
-    
-}       
+}
