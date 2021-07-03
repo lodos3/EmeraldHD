@@ -23,8 +23,4 @@ public class InventoryController : MonoBehaviour
         }
     }
 
-    public bool UseShopInventoryControls()
-    {
-        return false;
-    }
 }

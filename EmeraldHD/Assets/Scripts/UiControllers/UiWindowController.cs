@@ -27,9 +27,10 @@ namespace UiControllers
         [SerializeField] private WindowController partyWindow;
         [SerializeField] private WindowController shopWindow;
         [SerializeField] private TMP_InputField chatBar;
-        
+        public ItemTooltip ItemTooltip { get; }
+
         [SerializeField] private MirQuickCell[] quickSlots;
-        
+
         private InputController.ChatActions chatActions;
         private InputController.UIActions uiInput; // Not sure if static is the right approach for this
         private InputController.QuickSlotsActions quickSlotsActions;
@@ -38,13 +39,14 @@ namespace UiControllers
         private List<WindowController> priorityWindowCloseList;
         private List<WindowController> activeWindows;
         private byte priorityWindowCount = 0;
-        
+
         public bool IsPopUpActive { get; set; } = false;
 
         /* TODO: Add UiPartyWindow collapse menu */
         /* TODO: Escape button closing windows, by priority? */
         /* TODO: Make windows draggable */
-        private void Awake() {
+        private void Awake()
+        {
             activeWindows = new List<WindowController>();
             uiInput = new InputController().UI;
             //quickSlotsEquipped = new IQuickSlotItem[24];
@@ -90,16 +92,17 @@ namespace UiControllers
             chatActions.Enable();
             EnableControls();
             // SetPartyInputFieldListeners();
-            priorityWindowCloseList = new List<WindowController>() {gfxMenu, optionsMenu, soundsSettingsMenu, gameSettingsMenu, shopWindow}; // add guild invite to this list
+            priorityWindowCloseList = new List<WindowController>() { gfxMenu, optionsMenu, soundsSettingsMenu, gameSettingsMenu, shopWindow }; // add guild invite to this list
         }
 
         #region UI_HANDLERS
         private void HandleEscapePress()
         {
             if (IsPopUpActive) return;
-            
+
             // TODO: Should Cancel holding item if the player is holding an item with cursor?
-            if(priorityWindowCount > 0) {
+            if (priorityWindowCount > 0)
+            {
                 for (int i = 0; i < priorityWindowCloseList.Count; i++)
                 {
                     if (priorityWindowCloseList[i].GetWindowActiveState() == true)
@@ -110,7 +113,8 @@ namespace UiControllers
                 }
             }
 
-            if (activeWindows.Count > 0) {
+            if (activeWindows.Count > 0)
+            {
                 ToggleWindowActiveState(activeWindows.Last());
                 return;
             }
@@ -119,9 +123,10 @@ namespace UiControllers
 
         public void ToggleWindowActiveState(WindowController window)
         {
-            if(window.ToggleWindowActiveState())
+            if (window.ToggleWindowActiveState())
                 activeWindows.Add(window);
-            else {
+            else
+            {
                 activeWindows.Remove(window);
             }
             Debug.Log($"after {activeWindows.Count}");
@@ -132,14 +137,16 @@ namespace UiControllers
             TogglePriorityWindowActiveState(GetWindowController(window));
         }
 
-        private void TogglePriorityWindowActiveState(WindowController window) {
-            if(window.ToggleWindowActiveState())
+        private void TogglePriorityWindowActiveState(WindowController window)
+        {
+            if (window.ToggleWindowActiveState())
                 priorityWindowCount++;
-            else {
+            else
+            {
                 priorityWindowCount--;
             }
         }
-    
+
         public void ToggleChatWindowHeight()
         {
             toggleSize++;
@@ -227,13 +234,13 @@ namespace UiControllers
                     throw new ArgumentOutOfRangeException(nameof(window), window, null);
             }
         }
-    
+
         public void DisableControls()
         {
             quickSlotsActions.Disable();
             uiInput.Disable();
         }
-    
+
         public void EnableControls()
         {
             quickSlotsActions.Enable();
@@ -242,9 +249,9 @@ namespace UiControllers
         #endregion
 
         #region QuickSlots
-    
+
         private void StartQuickSlotAction(int position)
-        {        
+        {
             quickSlots[position].DoAction();
         }
 

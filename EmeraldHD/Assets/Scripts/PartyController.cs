@@ -7,7 +7,8 @@ using UnityEngine;
 using UnityEngine.Serialization;
 using Network = Emerald.Network;
 
-public class PartyController : MonoBehaviour {
+public class PartyController : MonoBehaviour
+{
     [SerializeField] private PartyHudController partyHudController;
     [SerializeField] private PartyWindowController partyWindowController;
     [SerializeField] private MirMessageBox messageBox;
@@ -50,10 +51,11 @@ public class PartyController : MonoBehaviour {
         messageBox.Cancel += () => CurrentSelectedMember = String.Empty;
     }
 
-    public void TEST_LOAD_MEMBERS() {
+    public void TEST_LOAD_MEMBERS()
+    {
         for (int i = 0; i < 3; i++)
         {
-            if(i == 0)
+            if (i == 0)
                 RpcAddNewMember("Buggy");
             RpcAddNewMember($"{i} member");
         }
@@ -66,15 +68,12 @@ public class PartyController : MonoBehaviour {
         messageBox.OK += CmdLeaveParty;
     }
 
-    public bool IsPartyLeader()
-    {
-        return partyList.Count == 0 || UserName == partyList[0];
-    }
+    public bool IsPartyLeader() => partyList.Count == 0 || UserName == partyList[0];
 
     private void CmdLeaveParty() // This can't be the way to do this?
     {
-        Network.Enqueue(new ClientPackets.SwitchAllowGroup() {AllowGroup = false});
-        Network.Enqueue(new ClientPackets.SwitchAllowGroup() {AllowGroup = true});
+        Network.Enqueue(new ClientPackets.SwitchAllowGroup() { AllowGroup = false });
+        Network.Enqueue(new ClientPackets.SwitchAllowGroup() { AllowGroup = true });
     }
 
     public void ShowInviteWindow()
@@ -83,8 +82,9 @@ public class PartyController : MonoBehaviour {
         messageBox.Cancel += () => CmdReplyToInvite(false);
         messageBox.OK += () => CmdReplyToInvite(true);
     }
-        
-    public void RpcReceiveInvite(string fromUser) {
+
+    public void RpcReceiveInvite(string fromUser)
+    {
         invitationNoticeIcon.SetActive(true);
         inviteFromUser = fromUser;
     }
@@ -110,16 +110,16 @@ public class PartyController : MonoBehaviour {
         partyWindowController.AddMember(memberName);
         partyHudController.AddMember(memberName);
     }
-        
-    internal void CmdAllowGroupChange(bool isAllowingGroup) =>
-        Network.Enqueue(new C.SwitchAllowGroup() {AllowGroup = isAllowingGroup});
-        
-    private void CmdRemoveMemberFromParty(string memberName) =>
-        Network.Enqueue(new C.DeleteMemberFromGroup() {Name = memberName});
 
-    private  void CmdSendInviteToPlayer(string memberName) =>
-        Network.Enqueue(new C.AddMemberToGroup() {Name = memberName});
+    internal void CmdAllowGroupChange(bool isAllowingGroup) =>
+        Network.Enqueue(new C.SwitchAllowGroup() { AllowGroup = isAllowingGroup });
+
+    private void CmdRemoveMemberFromParty(string memberName) =>
+        Network.Enqueue(new C.DeleteMemberFromGroup() { Name = memberName });
+
+    private void CmdSendInviteToPlayer(string memberName) =>
+        Network.Enqueue(new C.AddMemberToGroup() { Name = memberName });
 
     private void CmdReplyToInvite(bool response) =>
-        Network.Enqueue(new C.RespondeToGroupInvite() {AcceptInvite = response});
+        Network.Enqueue(new C.RespondeToGroupInvite() { AcceptInvite = response });
 }

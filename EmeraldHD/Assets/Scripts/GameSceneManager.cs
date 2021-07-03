@@ -1,19 +1,14 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using System.Drawing;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using TMPro;
 using UiControllers;
-using UiControllers.Party;
-using UnityEngine.Serialization;
 using Network = Emerald.Network;
 using C = ClientPackets;
 using S = ServerPackets;
 using Image = UnityEngine.UI.Image;
-using Color = UnityEngine.Color;
 
 public class GameSceneManager : MonoBehaviour
 {
@@ -120,6 +115,7 @@ public class GameSceneManager : MonoBehaviour
     public QueuedAction QueuedAction;
 
     private MirItemCell _selectedCell;
+    private MirItemCell currentHoveredCell;
     public bool ShopIsActive { get; set; }
 
     [HideInInspector]
@@ -155,6 +151,7 @@ public class GameSceneManager : MonoBehaviour
 
     void Start()
     {
+        ItemToolTip.GameScene = this;
         ScrollBar.size = 0.4f;
         Network.Enqueue(new C.RequestMapInformation { });
         // Inventory.gameObject.SetActive(false);
@@ -164,11 +161,28 @@ public class GameSceneManager : MonoBehaviour
     {
         if (shopController.IsShopWindowOpen())
         {
-            Debug.Log("ShopControllerIsActive");
-            if(Inventory.UseShopInventoryControls())
-                return;
+            if (shopController.IsRepairOptionActive)
+            {
+                if (Input.GetMouseButtonDown(0))
+                {
+                    if (currentHoveredCell.Item?.CurrentDura != currentHoveredCell.Item?.MaxDura)
+                    {
+                        shopController.RepairItem(currentHoveredCell.Item);
+                        return;
+                    }
+                }
+            }
+            else if (Input.GetMouseButtonDown(0))
+            {
+                if (currentHoveredCell)
+                    if (currentHoveredCell.Item != null)
+                    {
+                        shopController.SellItem(currentHoveredCell.Item);
+                        return;
+                    }
+            }
         }
-            
+
         if (SelectedItemImage.gameObject.activeSelf)
         {
             SelectedItemImage.transform.position = Input.mousePosition;
@@ -684,5 +698,28 @@ public class GameSceneManager : MonoBehaviour
 
         Network.Enqueue(new C.CallNPC { ObjectID = NPCID, Key = "[" + LinkId + "]" });
         GameManager.InputDelay = Time.time + 0.5f;
+    }
+    public void GetItemMouseIsOver()
+    {
+
+    }
+
+    public void SetCurrentHoveredCell(MirItemCell mirItemCell)
+    {
+        this.currentHoveredCell = mirItemCell;
+    }
+
+    public void RemoveItemFromInventory(ulong uniqueID, uint itemSoldCount)
+    {
+        MirItemCell itemSold = GetCell(Inventory.Cells, uniqueID);
+        if (itemSold.Item.Count > itemSoldCount)
+        {
+            itemSold.Item.Count -= itemSoldCount;
+        }
+        else
+        {
+            itemSold.RemoveItem();
+            itemSold.Item = null;
+        }
     }
 }

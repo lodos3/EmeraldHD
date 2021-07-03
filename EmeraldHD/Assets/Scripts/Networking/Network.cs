@@ -34,7 +34,7 @@ namespace Emerald
 
             ConnectAttempt++;
 
-            _client = new TcpClient {NoDelay = true};
+            _client = new TcpClient { NoDelay = true };
             _client.BeginConnect(GameManager.Settings.IPAddress, GameManager.Settings.Port, Connection, null);
         }
 
@@ -123,7 +123,7 @@ namespace Emerald
         private static void BeginSend(List<byte> data)
         {
             if (_client == null || !_client.Connected || data.Count == 0) return;
-            
+
             try
             {
                 _client.Client.BeginSend(data.ToArray(), 0, data.Count, SocketFlags.None, SendData, null);
@@ -229,7 +229,7 @@ namespace Emerald
                 case GameStage.Game:
                     ProcessGamePacket(p);
                     break;
-            }            
+            }
         }
 
         public static void ProcessLoginPacket(Packet p)
@@ -298,6 +298,7 @@ namespace Emerald
 
         public static void ProcessGamePacket(Packet p)
         {
+            // Debug.Log((ServerPacketIds)p.Index);
             switch (p.Index)
             {
                 case (short)ServerPacketIds.MapInformation:
@@ -377,7 +378,7 @@ namespace Emerald
                     break;
                 case (short)ServerPacketIds.ObjectDied:
                     ObjectDied((S.ObjectDied)p);
-                    break; 
+                    break;
                 case (short)ServerPacketIds.ObjectColourChanged:
                     ObjectColourChanged((S.ObjectColourChanged)p);
                     break;
@@ -444,7 +445,7 @@ namespace Emerald
                 case (short)ServerPacketIds.NPCResponse:
                     NPCResponse((S.NPCResponse)p);
                     break;
-                                    // Group packages //
+                // Group packages //
                 case (short)ServerPacketIds.SwitchGroup:
                     AllowGroup((S.SwitchGroup)p);
                     break;
@@ -460,77 +461,89 @@ namespace Emerald
                 case (short)ServerPacketIds.AddMember:
                     AddMember((S.AddMember)p);
                     break;
-                case(short)ServerPacketIds.NPCGoods:
+                case (short)ServerPacketIds.NPCGoods:
                     NpcGoods((S.NPCGoods)p);
                     break;
-                case(short)ServerPacketIds.NPCSell:
+                case (short)ServerPacketIds.NPCSell:
                     NpcSell((S.NPCSell)p);
                     break;
-                case(short)ServerPacketIds.NPCRepair:
-                    NpcRepair((S.NPCSell)p);
+                case (short)ServerPacketIds.SellItem:
+                    SellItem((S.SellItem)p);
                     break;
-                case(short)ServerPacketIds.NPCSRepair:
+                case (short)ServerPacketIds.NPCRepair:
+                    NpcGoods();
+                    break;
+                case (short)ServerPacketIds.NPCSRepair:
                     NpcSpecialRepair((S.NPCSRepair)p);
                     break;
-                case(short)ServerPacketIds.KeepAlive:
+                case (short)ServerPacketIds.RepairItem:
+                    // RepairItem((S.RepairItem) p);
+                    break;
+                case (short)ServerPacketIds.ItemRepaired:
+                    ItemRepaired((S.ItemRepaired)p);
+                    break;
+                case (short)ServerPacketIds.KeepAlive:
                     // Received but unhandled
                     break;
-                case(short)ServerPacketIds.CompleteQuest:
+                case (short)ServerPacketIds.CompleteQuest:
                     // Received but unhandled
                     break;
-                case(short)ServerPacketIds.ReceiveMail:
+                case (short)ServerPacketIds.ReceiveMail:
                     // Received but unhandled
                     break;
-                case(short)ServerPacketIds.FriendUpdate:
+                case (short)ServerPacketIds.FriendUpdate:
                     // Received but unhandled
                     break;
-                case(short)ServerPacketIds.MentorUpdate:
+                case (short)ServerPacketIds.MentorUpdate:
                     // Received but unhandled
                     break;
-                case(short)ServerPacketIds.GameShopInfo:
+                case (short)ServerPacketIds.GameShopInfo:
                     // Received but unhandled
                     break;
-                case(short)ServerPacketIds.UpdateIntelligentCreatureList:
+                case (short)ServerPacketIds.UpdateIntelligentCreatureList:
                     // Received but unhandled
                     break;
-                case(short)ServerPacketIds.LoverUpdate:
+                case (short)ServerPacketIds.LoverUpdate:
                     // Received but unhandled
                     break;
-                case(short)ServerPacketIds.TimeOfDay:
+                case (short)ServerPacketIds.TimeOfDay:
                     // Received but unhandled
                     break;
-                case(short)ServerPacketIds.DefaultNPC:
+                case (short)ServerPacketIds.DefaultNPC:
                     // Received but unhandled
                     break;
-                case(short)ServerPacketIds.GuildBuffList:
+                case (short)ServerPacketIds.GuildBuffList:
                     // Received but unhandled
                     break;
-                case(short)ServerPacketIds.AddBuff:
+                case (short)ServerPacketIds.AddBuff:
                     // Received but unhandled
                     break;
                 // case (short)ServerPacketIds.Send:
-                case(short)ServerPacketIds.ChangePMode:
+                case (short)ServerPacketIds.ChangePMode:
                     // Received but unhandled
                     break;
                 default:
-                    Debug.Log((ServerPacketIds)p.Index);
+                    ServerPacketIds packetId = (ServerPacketIds)p.Index;
+                    Debug.Log($"Packet received and not handled: {packetId}");
                     //base.ProcessPacket(p);
                     break;
             }
         }
 
-        private static void NpcSpecialRepair(S.NPCSRepair npcsRepair)
+        private static void ItemRepaired(S.ItemRepaired itemRepaired)
         {
-            throw new NotImplementedException();
+            gameManager.ItemRepaired(itemRepaired);
         }
 
-        private static void NpcRepair(S.NPCSell npcSell)
+        private static void RepairItem(S.RepairItem repairItem)
         {
-            throw new NotImplementedException();
+            Debug.Log(repairItem.UniqueID);
         }
 
-        private static void NpcSell(S.NPCSell npcSell)
+        private static void RemoveSlotItem(S.RemoveSlotItem p)
         {
+            Debug.Log(p.Grid);
+            Debug.Log(p.GridTo);
         }
 
         public static void SendVersion()
@@ -586,7 +599,7 @@ namespace Emerald
                     break;
                 case 8:
                     LoginManager.RegisterCancel_OnClick();
-                    LoginManager.ShowMessageBox("Account creation successful.");                    
+                    LoginManager.ShowMessageBox("Account creation successful.");
                     break;
             }
         }
@@ -648,7 +661,7 @@ namespace Emerald
         }
 
         public static void NewCharacter(S.NewCharacter p)
-        {           
+        {
             switch (p.Result)
             {
                 case 0:
@@ -729,7 +742,7 @@ namespace Emerald
         }
         public static void MapInformation(S.MapInformation p)
         {
-            gameManager.MapInformation(p);            
+            gameManager.MapInformation(p);
         }
         public static void UserInformation(S.UserInformation p)
         {
@@ -810,7 +823,7 @@ namespace Emerald
         public static void ObjectHealth(S.ObjectHealth p)
         {
             gameManager.ObjectHealth(p);
-        }        
+        }
 
         public static void ObjectRevived(S.ObjectRevived p)
         {
@@ -916,19 +929,42 @@ namespace Emerald
         {
             GameManager.GameScene.NPCResponse(p);
         }
-        
+
         // Group Package Handlers //        
-        private static void AllowGroup(S.SwitchGroup p) =>  gameManager.AllowGroup(p.AllowGroup); 
+        private static void AllowGroup(S.SwitchGroup p) => gameManager.AllowGroup(p.AllowGroup);
         private static void DeleteGroup() => gameManager.DeleteGroup();
-        private static void DeleteMember(S.DeleteMember p) => gameManager.DeleteMemberFromGroup(p.Name); 
+        private static void DeleteMember(S.DeleteMember p) => gameManager.DeleteMemberFromGroup(p.Name);
         private static void GroupInvite(S.GroupInvite p) => gameManager.ShowGroupInviteWindow(p.Name);
         private static void AddMember(S.AddMember p) => gameManager.AddMemberToGroup(p.Name);
 
         // Shop Package Handlers //
         private static void NpcGoods(S.NPCGoods p) => gameManager.SetShopGoods(p.List);
+        private static void NpcGoods() => gameManager.SetShopGoods(new List<UserItem>());
+
+
+        private static void SellItem(S.SellItem p)
+        {
+            gameManager.SellItem(p);
+        }
+
+        private static void NpcSpecialRepair(S.NPCSRepair npcSRepair)
+        {
+            throw new NotImplementedException();
+        }
+
+        private static void NpcRepair(S.NPCRepair npcRepair)
+        {
+            Debug.Log(npcRepair.Rate);
+        }
+
+        private static void NpcSell(S.NPCSell npcSell)
+        {
+        }
+
 
         public static void Enqueue(Packet p)
         {
+            // Debug.Log(p);
             if (_sendList != null && p != null)
                 _sendList.Enqueue(p);
         }

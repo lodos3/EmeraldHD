@@ -73,7 +73,7 @@ namespace UiControllers.Party
         {
             for (int i = 0; i < memberSlotList.Count; i++)
             {
-                Destroy(memberSlotList[i]);
+                Destroy(memberSlotList[i]); 
             }
             memberSlotList.Clear();
         }
