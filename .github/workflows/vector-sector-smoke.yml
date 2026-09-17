@@ -1,0 +1,13 @@
+name: Vector Sector Build Smoke
+
+on:
+  push:
+    branches:
+      - build/vector-sector-apk
+  workflow_dispatch:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "GitHub Actions runner OK"
