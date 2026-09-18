@@ -1,0 +1,14 @@
+jdk:
+  - openjdk17
+
+before_install:
+  - sdk install gradle 8.13
+  - sdk use gradle 8.13
+  - yes | sdkmanager --licenses >/dev/null || true
+  - sdkmanager "platforms;android-36" "build-tools;35.0.0" "platform-tools"
+
+install:
+  - ~/.sdkman/candidates/gradle/8.13/bin/gradle --no-daemon clean :app:assembleDebug
+  - mkdir -p "$HOME/.m2/repository/$(echo "$GROUP" | tr '.' '/')/$ARTIFACT/$VERSION"
+  - cp app/build/outputs/apk/debug/app-debug.apk "$HOME/.m2/repository/$(echo "$GROUP" | tr '.' '/')/$ARTIFACT/$VERSION/$ARTIFACT-$VERSION.apk"
+  - printf '<project xmlns="http://maven.apache.org/POM/4.0.0"><modelVersion>4.0.0</modelVersion><groupId>%s</groupId><artifactId>%s</artifactId><version>%s</version><packaging>apk</packaging></project>\n' "$GROUP" "$ARTIFACT" "$VERSION" > "$HOME/.m2/repository/$(echo "$GROUP" | tr '.' '/')/$ARTIFACT/$VERSION/$ARTIFACT-$VERSION.pom"
